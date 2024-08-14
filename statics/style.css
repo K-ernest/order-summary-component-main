@@ -1,1 +1,106 @@
+* {
+    box-sizing: border-box;
+     } 
+     
+/* body */     
+body{
+  background: hsl(225, 100%, 94%);
+  
+}     
+     /* body ends */
+
+
+/* box div */
+
+.box{
+  align-items: center;
+  background-color: white;
+  border: ;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+/* box div ends */
+
+
+/* top imag */
+
+.topImage{
+ width: 100%;
+ border-radius: 20px 20px 00px 00px;   
+}
+
+/* top imag ends */
+
+
+/* proceed to payment div */
+
+.pp {
+ background-color: hsl(245, 75%, 52%);
+ color: white;
+ width: 80%;
+ padding: 10px;
+ margin: 10px 0px;
+ border: 0px;
+ border-radius: 10px 10px 10px 10px;
+ box-shadow: inset hsl(224, 23%, 55%); 
+ box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2); 
+ text-align: center;         
+   
+}
+
+/* change color of div background on hover */
+.pp:hover{
+  background-color: mediumslateblue;
+}
+/*  */
+
+/* change color of tag on hover */
+a:hover{
+  color: mediumslateblue;
+}
+/*  */
+
+/* change the font weight of class on hover */
+.co:hover{
+   font-weight: 700;
+}
+/*  */
+
+/* ends.... */
+
+/* summary */
+.summary{
+  text-align: center;
+
+}
+/*  */
+
+/* annual plan */
+
+.Ap{
+  background: ;  
+  width: 80%;
+  margin: 5%;
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;  
+  justify-content: space-evenly;
+}
+
+.Ap > div {
+   display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+/* ends */
+
+
 
